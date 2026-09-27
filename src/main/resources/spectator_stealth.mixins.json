@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.okakatsuo.spectator_stealth.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ClientboundPlayerInfoUpdatePacketAccessor",
+    "ListPlayersCommandMixin",
+    "MinecraftServerMixin",
+    "PlayerListMixin",
+    "ServerGamePacketListenerImplMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
